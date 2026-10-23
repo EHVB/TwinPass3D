@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- TwinPass3D: keep data and run outputs out of the repository ----
+Data/
+out/
+Final_Dataset/
+TwinPass3D/
+review/
+apply_reports/
+.alignment_cache/
+*.las
+*.laz
+*.ply
+*.npz
+*.zip

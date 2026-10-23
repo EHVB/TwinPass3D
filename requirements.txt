@@ -1,0 +1,8 @@
+numpy
+scipy
+laspy>=2.0
+open3d
+tqdm
+shapely>=2.0
+matplotlib
+Pillow
