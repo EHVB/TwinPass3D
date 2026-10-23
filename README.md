@@ -1,5 +1,7 @@
 # TwinPass3D
 
+[![DOI](https://zenodo.org/badge/1430433678.svg)](https://doi.org/10.5281/zenodo.23584201)
+
 Processing code for **TwinPass3D**, a two-pass micromobility LiDAR dataset for semantic segmentation and far-side scene completion. Every street segment was scanned twice, once from each sidewalk, with a mobility scooter carrying a 32-channel LiDAR. The two traversals are registered and fused at full resolution, annotated into 11 classes, and released as paired single-pass and complete point clouds cut into 25 m tiles.
 
 This repository contains the scripts used to go from the two georeferenced single-pass scans of each segment to the released tiles.
@@ -136,6 +138,8 @@ Writes the tiles in the release layout (`TwinPass3D/Zone <z>/{TwinPass,Pass 1,Pa
 If you use the code or the dataset, please cite:
 
 > E. K. Mahmoud, A. M. Sakr, F. Birhane, and K. El-Basyouny, "A Two-Pass Micromobility LiDAR Dataset for Semantic Segmentation and Far-Side Scene Completion," manuscript under review.
+
+To cite the code itself, use the Zenodo record: https://doi.org/10.5281/zenodo.23584201 (all versions; v1.0.0: https://doi.org/10.5281/zenodo.23584202).
 
 The citation will be updated on publication.
 
